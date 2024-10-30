@@ -1,0 +1,59 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+  /* Estilo general */
+body {
+  background-color: #6a6a6b; /* Fondo claro */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para el buscador */
+#inputBuscar {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1.1em;
+  border-radius: 8px;
+}
+
+#btnBuscar {
+  font-size: 1.1em;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Estilo de las tarjetas */
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.card-text {
+  font-size: 0.9em;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+footer a {
+  color: #ffc107;
+}
+
+footer p {
+  margin: 0;
+}
